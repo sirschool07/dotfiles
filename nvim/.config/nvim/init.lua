@@ -15,3 +15,19 @@ vim.opt.softtabstop = 2
 -- Indentation and backspace settings
 vim.opt.autoindent = true
 vim.opt.backspace = indent,eol,start
+
+-- Tree-sitter options
+require'nvim-treesitter'.install {
+  'rust',
+  'javascript',
+  'zig',
+  'java',
+  'lua',
+  'markdown',
+  'html',
+  'latex',
+  'yaml'
+}
+
+-- Tokyo Night colorscheme
+vim.cmd("colorscheme tokyonight")
