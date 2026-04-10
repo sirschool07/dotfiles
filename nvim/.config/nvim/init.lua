@@ -28,5 +28,6 @@ require'nvim-treesitter'.install {
   'yaml'
 }
 
--- Tokyo Night colorscheme
-vim.cmd("colorscheme tokyonight")
+-- Tokyo Night colorscheme and setup
+vim.cmd("colorscheme midnight")
+require("midnight").setup{ transparent = vim.g.transparent_enabled }
