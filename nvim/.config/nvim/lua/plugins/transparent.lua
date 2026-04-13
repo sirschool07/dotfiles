@@ -8,6 +8,9 @@ return {
         "NeoTreeNormalNC",
         "NormalFloat",
       },
+      exclude_groups = {
+        "CursorLine"
+      }
     }
   end,
 }
