@@ -16,6 +16,9 @@ vim.opt.softtabstop = 2
 vim.opt.autoindent = true
 vim.opt.backspace = indent,eol,start
 
+-- ESC remap for terminal mode
+vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
+
 -- Tree-sitter options
 require'nvim-treesitter'.install {
   'rust',
