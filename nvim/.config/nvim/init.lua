@@ -17,7 +17,7 @@ vim.opt.autoindent = true
 vim.opt.backspace = indent,eol,start
 
 -- ESC remap for terminal mode
-vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
+-- vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
 
 -- Tree-sitter options
 require'nvim-treesitter'.install {
@@ -34,6 +34,6 @@ require'nvim-treesitter'.install {
 -- Enable transparency
 vim.g.transparent_enabled = true
 
--- Tokyo Night colorscheme and setup
+-- Oldschool colorscheme and setup
 vim.cmd("colorscheme oldschool")
 require("oldschool").setup{ transparent = vim.g.transparent_enabled }
