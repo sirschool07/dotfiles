@@ -28,7 +28,9 @@ require'nvim-treesitter'.install {
   'lua',
   'markdown',
   'html',
-  'yaml'
+  'yaml',
+  'c',
+  'make'
 }
 
 -- Enable transparency
