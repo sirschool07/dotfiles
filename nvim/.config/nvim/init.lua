@@ -37,7 +37,7 @@ require'nvim-treesitter'.install {
 vim.g.transparent_enabled = true
 
 -- Use C parser for header files, not C++
-let g:c_syntax_for_h = 1
+vim.g.c_syntax_for_h = true
 
 -- Oldschool colorscheme and setup
 vim.opt.termguicolors = true
